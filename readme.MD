@@ -2,7 +2,7 @@
 This repository contains lab for running `Cucumber` using `Java`. 
 If you are taking this course, you should be familiar with the concept of `BDD`, `User stories` and `Cucumber`.
 
-# Prerequisites
+# Getting Started
 
 1. Make sure you have `jdk` installed. Verify by running `java -version` from your command line.
 ```
@@ -45,3 +45,5 @@ mvn test
 Provided you followed the instruction clearly, you should see the result given below.
 
 ![img.png](img.png)
+
+You can also follow the instruction from https://school.cucumber.io/. 
