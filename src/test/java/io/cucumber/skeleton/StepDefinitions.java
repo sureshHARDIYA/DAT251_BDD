@@ -11,13 +11,13 @@ public class StepDefinitions {
     private int number2;
     private int result;
 
-    @Given("I have entered {int} and {int} into the calculator")
+    @Given("I have entered/pressed/clicked {int} and {int} into the calculator")
     public void iHaveEnteredIntoTheCalculator(int num1, int num2) {
         number1 = num1;
         number2 = num2;
     }
 
-    @When("I press the add button")
+    @When("I press the add/plus button")
     public void iPressTheAddButton() {
         result = Calculator.add(number1, number2);
     }
