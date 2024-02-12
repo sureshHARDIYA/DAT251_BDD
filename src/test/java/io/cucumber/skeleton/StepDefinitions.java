@@ -19,11 +19,16 @@ public class StepDefinitions {
 
     @When("I press the add button")
     public void iPressTheAddButton() {
-        result = Sum.add(number1, number2);
+        result = Calculator.add(number1, number2);
     }
 
     @Then("the result should be {int} on the screen")
     public void theResultShouldBeOnTheScreen(int sum) {
         assertEquals(sum, result);
     }
+
+//    @When("I press subtract button")
+//    public void iPressSubtractButton() {
+//        result = Calculator.subtract(number1, number2);
+//    }
 }
