@@ -6,7 +6,7 @@ Feature: My Personal Calculator
     When I press the add button
     Then the result should be 12 on the screen
     
-#    Scenario: Subtract two number
-#      Given I have entered 12 and 10 into the calculator
-#      When I press subtract button
-#      Then the result should be 2 on the screen
+  Scenario: Subtract two number
+      Given I have entered 12 and 10 into the calculator
+      When I press subtract button
+      Then the result should be 2 on the screen

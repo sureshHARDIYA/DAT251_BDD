@@ -27,8 +27,8 @@ public class StepDefinitions {
         assertEquals(sum, result);
     }
 
-//    @When("I press subtract button")
-//    public void iPressSubtractButton() {
-//        result = Calculator.subtract(number1, number2);
-//    }
+    @When("I press subtract button")
+    public void iPressSubtractButton() {
+       result = Calculator.subtract(number1, number2);
+   }
 }
